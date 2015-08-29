@@ -1,0 +1,33 @@
+{
+  "name": "showdown-toc",
+  "version": "0.0.1",
+  "description": "Add table of contents support to showdown",
+  "keywords": [
+    "markdown",
+    "md",
+    "showdown",
+    "extension",
+    "toc",
+    "table of contents",
+	"table",
+	"contents",
+	"content"
+  ],
+  "license": "MIT",
+  "author": "Jan Löbel",
+  "main": "./src/showdown-toc.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanLoebel/showdown-toc.git",
+    "web": "https://github.com/JanLoebel/showdown-toc"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+	"cheerio" : "^0.19.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-simple-mocha": "^0.4.0",
+    "js-beautify": "^1.5.10",
+    "showdown": "^1.2.1"
+  }
+}
