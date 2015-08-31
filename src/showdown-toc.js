@@ -130,9 +130,9 @@
       // Sort header
       headerList = sortHeader(headerList);
 
-      // Build result and replace [toc]
+      // Build result and replace all [toc]
       var result = '<div class="toc">\n<ul>\n' + headerList.join("") + '</ul>\n</div>\n';
-      return sourceHtml.replace(/\[toc\]/i, result);
+      return sourceHtml.replace(/\[toc\]/gi, result);
     }
   }];
 }));
