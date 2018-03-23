@@ -9,9 +9,9 @@
     "extension",
     "toc",
     "table of contents",
-	"table",
-	"contents",
-	"content"
+    "table",
+    "contents",
+    "content"
   ],
   "license": "MIT",
   "author": "Jan Löbel",
@@ -23,8 +23,8 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-	"cheerio" : "^0.19.0",
-    "grunt": "^0.4.5",
+    "cheerio": "^0.19.0",
+    "grunt": "^1.0.2",
     "grunt-contrib-jshint": "^0.11.2",
     "grunt-simple-mocha": "^0.4.0",
     "js-beautify": "^1.5.10",

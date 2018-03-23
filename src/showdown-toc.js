@@ -117,7 +117,7 @@
     return result;
   }
 
-  return [{
+  return {
     type: 'output',
     filter: function(sourceHtml) {
       var headerList = getHeaderEntries(sourceHtml);
@@ -134,5 +134,5 @@
       var result = '<div class="toc">\n<ul>\n' + headerList.join("") + '</ul>\n</div>\n';
       return sourceHtml.replace(/\[toc\]/gi, result);
     }
-  }];
+  };
 }));
